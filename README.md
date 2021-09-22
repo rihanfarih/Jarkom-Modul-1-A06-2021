@@ -50,12 +50,22 @@ Maka setelah itu gunakan username dan password yang telah didapat untuk melakuka
 
 ## Soal 6
 Cari username dan password ketika melakukan login ke FTP Server!  
+untuk menjawabnya, gunakan filter ``ftp.request.command == USER || ftp.request.command == PASS``
 
+![image11](https://lh3.googleusercontent.com/e0GwIr98us2da5AJs56nbJKpHXLrUfqPe5Vc9MXO29Awbcst9OMV39_TS-GpwZGz2TBogfW5waEPAogOmTv1t_pFQSY5864zcGh7UCmxPVU2VEggTfPaHyGbzn84jVa3E1L6fGKj=s0) 
 ## Soal 7
-Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")  
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf") 
+untuk menjawabnya langkah yang dilakukan sebagai berikut:
+1. gunakan ``frame contains "Real.pdf" `` untuk mencari filenya ![image12](https://lh3.googleusercontent.com/M6uWGfR8QPcOuKaVurzC8D1-x1ezOlmjYFcxzUBHN4EMfpWAuBHuDokYWDYiEsI4UhFcJackCFKc0Vuyxqcmddwfwk7ynklRtTrGtcnPNyLcDwaOOzTGWU6sMP5_XLgPo-EcgzTu=s0) 
+2. lalu follow TCP stream (ganti ke raw) dan save jadi .zip ![image13](	https://lh5.googleusercontent.com/Fxvsa80S4monR059D32731ifJF13_Lqgsu3E_I_cWzh1lFsLdtENcstEepSM_fqyYKBDNGW60myG81_6n6sx0X7IvXlpm6O9NKjrnvCFdsxdmQb0THkPrA7ZxGEwaARvmoBIIza4=s0) 
+3. Buka lah filenya ![image14](	https://lh6.googleusercontent.com/iEFa0eYUOo9iv2pV5HyDUt61x7dxxq9y6jLnP37JwiGMjOqKl9wQpotn3BxqjHKe4jHTaC8-lQU7m-8yiQ8vyuWnK-xLX5pCbGRtHdyjGOrbyvpLSXx9RcjKgCFqqeJmo187GT5W=s0) 
 
 ## Soal 8
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!  
+
+untuk menjawabnya , gunakan ```ftp.request.command == stor``` untuk mencari perintah pengambilan file dari FTP
+![image15](https://lh3.googleusercontent.com/pplsYsIsDwLjdltavqNioWg__i8INfE0Svm3lEgpuw_e3mGf2ChATPC76ITLwxD0vH10Z6gt44w99iuezzmvfhjugu6jbGc3_bO9sU7JTuswAa-WB9oO6i15aJacrxRsMT6qvGSK=s0) 
+
   
 ## Soal 9
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut !.  
@@ -84,8 +94,19 @@ Langkah yang dapat digunakan sebagai berikut:
 ![image19](https://user-images.githubusercontent.com/55240758/134286891-d2183f73-f381-443e-8fb8-79a8965a2b5a.png)
 
 ## Soal 11
+ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+ Gunakan wireshark filter expression: ``src port 80``
+ ![image20](https://lh3.googleusercontent.com/TkdBiFXSVPUOvZB1Z5bbCHoIN1sIGl7BL5KLCK2aj_QOaAFEQdL_hEkdnQXTTn4rk56Zwu4NskitvyLR-OEns-YOw64NupUzvBk8_f62RmWXRqh3KRHQvIsbJbGCRnT-RYd0adjz=s0)
+
 ## Soal 12
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+Gunakan wireshark filter expression: ``port 21``
+![image21](https://lh4.googleusercontent.com/FQIvEAA63C5qR4npXrz1vbYLMnGTyqpjKLHE1KxQ_S5xqEivMkXirgo2zGV4wl5-i76EskG8N5WHyI_tuFBYQSMKN5uviDE52-ws5NVb-qVBxIRd4TgY493L6Czovxw0XfcWxtfj=s0)
+
+
 ## Soal 13
+
 ## Soal 14
+
 ## Soal 15
 
