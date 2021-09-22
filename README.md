@@ -69,7 +69,7 @@ Berdasarkan perintah soal, langkah yang dapat digunakan sebagai berikut :
 Adapun cara lain untuk mengetahui password yakni dengan melakukan klik kanan paket > follow > TCP stream untuk mengetahui isi teks pada file bukanapapa.txt yang berupa password sebagai berikut :  
 ![image20](https://user-images.githubusercontent.com/55240758/134290558-cc0a3dc0-de23-49ae-8870-c957b3a3708e.png)  
 4. **Langkah keempat:** Melakukan ekstrak dengan password yang telah didapatkan. sebagai beriut:
-![image26](https://user-images.githubusercontent.com/55240758/134290730-77838511-7a11-49b6-8197-e3390bda7a82.png)
+![image26](https://user-images.githubusercontent.com/55240758/134290730-77838511-7a11-49b6-8197-e3390bda7a82.png)  
 Maka dengan begitu file dapat dibuka dan berisi sebagai berikut :  ![image16](https://user-images.githubusercontent.com/55240758/134290921-3f27fc6a-84b4-4ad7-b431-9057bb7fd65f.png)
 
 ## Soal 10
