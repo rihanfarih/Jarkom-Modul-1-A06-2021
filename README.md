@@ -45,7 +45,7 @@ Untuk melakukan login dibutuhkan username dan password, langkah yang dapat digun
 2. **Langkah kedua :** klik salah satu paket untuk mengetahui rincian informasi mengenai username dan password dengan melakukan expand MySQL Protocol> Request Command Query. Sebagai berikut :  
 ![image15](https://user-images.githubusercontent.com/55240758/134286234-e17521b9-4542-402b-b0f9-2a0a4b37d807.png)
 
-Maka setelah itu gunakan username dan password yang telah didapat untuk melakukan login website, Pada web tersebut terdapat soal mengenai urutan kabel T-568B. Jawabannya ada dalam screenshot dibawah ini :  
+Maka setelah itu gunakan username dan password yang telah didapat untuk melakukan login website, Pada web tersebut terdapat soal mengenai urutan kabel T-568B. Jawabannya ada dalam screenshot dibawah ini :    
 ![image10](https://user-images.githubusercontent.com/55240758/134286408-a232f558-1c52-4fd7-b5ca-4cf90af80eeb.png) 
 
 ## Soal 6
@@ -70,7 +70,7 @@ Adapun cara lain untuk mengetahui password yakni dengan melakukan klik kanan pak
 ![image20](https://user-images.githubusercontent.com/55240758/134290558-cc0a3dc0-de23-49ae-8870-c957b3a3708e.png)  
 4. **Langkah keempat:** Melakukan ekstrak dengan password yang telah didapatkan. sebagai beriut:
 ![image26](https://user-images.githubusercontent.com/55240758/134290730-77838511-7a11-49b6-8197-e3390bda7a82.png)
-Maka dengan begitu file dapat dibuka dan berisi sebagai berikut :![image16](https://user-images.githubusercontent.com/55240758/134290921-3f27fc6a-84b4-4ad7-b431-9057bb7fd65f.png)
+Maka dengan begitu file dapat dibuka dan berisi sebagai berikut :  ![image16](https://user-images.githubusercontent.com/55240758/134290921-3f27fc6a-84b4-4ad7-b431-9057bb7fd65f.png)
 
 ## Soal 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
