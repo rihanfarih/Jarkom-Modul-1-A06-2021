@@ -94,12 +94,12 @@ Langkah yang dapat digunakan sebagai berikut:
 ![image19](https://user-images.githubusercontent.com/55240758/134286891-d2183f73-f381-443e-8fb8-79a8965a2b5a.png)
 
 ## Soal 11
- Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!   
  Gunakan wireshark filter expression: ``src port 80``
  ![image20](https://lh3.googleusercontent.com/TkdBiFXSVPUOvZB1Z5bbCHoIN1sIGl7BL5KLCK2aj_QOaAFEQdL_hEkdnQXTTn4rk56Zwu4NskitvyLR-OEns-YOw64NupUzvBk8_f62RmWXRqh3KRHQvIsbJbGCRnT-RYd0adjz=s0)
 
 ## Soal 12
-Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!  
 Gunakan wireshark filter expression: ``port 21``
 ![image21](https://lh4.googleusercontent.com/FQIvEAA63C5qR4npXrz1vbYLMnGTyqpjKLHE1KxQ_S5xqEivMkXirgo2zGV4wl5-i76EskG8N5WHyI_tuFBYQSMKN5uviDE52-ws5NVb-qVBxIRd4TgY493L6Czovxw0XfcWxtfj=s0)
 
