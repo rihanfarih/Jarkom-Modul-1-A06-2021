@@ -105,10 +105,12 @@ Gunakan wireshark filter expression: ``port 21``
 
 ## Soal 13
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+![image18](https://user-images.githubusercontent.com/73771452/134446260-23b394c5-9fe5-40bf-92dd-8a4f1fe3d602.png)
 
 ## Soal 14
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+![image11](https://user-images.githubusercontent.com/73771452/134446510-04183bf8-9eae-47b0-aee5-2317015f337c.png)
 
 ## Soal 15
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
-
+![image25](https://user-images.githubusercontent.com/73771452/134446192-9d8876c7-a4c7-420b-8d20-a6e73f193332.png)
