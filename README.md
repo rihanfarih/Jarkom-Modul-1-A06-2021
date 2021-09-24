@@ -36,6 +36,8 @@ Temukan paket mysql yang mengandung perintah query select!
 
 Untuk mendapatkan paket tersebut, yakni dengan melakukan filter menggunakan ``mysql contains “select”``. Maka paket yang akan didapatkan sebagai berikut :  
 ![image7](https://user-images.githubusercontent.com/55240758/134285870-bf987ff5-8256-455b-9422-542d65321b22.png)  
+  
+Namun syntax yang kami gunakan tidak secara genaral dapat menyelesaikan permasalahan atau permintaan tersebut. Dalam hal ini penggunaan syntax yang paling benar untuk permintaan pada soal ini yaitu ``mysql.command ==3 and frame matches "select"``
 
 ## Soal 5
 Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password  bisa didapat dari **query insert** pada table users dari file .pcap!  
