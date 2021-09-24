@@ -105,12 +105,21 @@ Gunakan wireshark filter expression: ``port 21``
 
 ## Soal 13
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+Gunakan wireshark filter expression: ``dst port 443``
 ![image18](https://user-images.githubusercontent.com/73771452/134446260-23b394c5-9fe5-40bf-92dd-8a4f1fe3d602.png)
 
 ## Soal 14
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+
+Gunakan wireshark filter expression: ``dst host kemenag.go.id``
 ![image11](https://user-images.githubusercontent.com/73771452/134446510-04183bf8-9eae-47b0-aee5-2317015f337c.png)
 
 ## Soal 15
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+Langkah yang dapat digunakan sebagai berikut:  
+1. **Langkah pertama:** Buka Command Prompt dengan cara menekan tombol 'Windows' dan 'R' secara bersamaan atau buka melalui Start menu kemudian ketik Run untuk mengecek ip.
+2. **Langkah kedua:** Ketik 'ipconfig' kemudian tunggu beberapa saat sampai command prompt menunujukkan IP Configuration dari perangkat yang digunakan.
+3. **Langkah pertama:** Kemudian masukkan ip tersebut dan gunakan wireshark filter expression: ``src net 192.168.1.6``
 ![image25](https://user-images.githubusercontent.com/73771452/134446192-9d8876c7-a4c7-420b-8d20-a6e73f193332.png)
