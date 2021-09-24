@@ -97,9 +97,11 @@ Langkah yang dapat digunakan sebagai berikut:
 
 ## Soal 11
  Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!   
- Gunakan wireshark filter expression: ``src port 80``
+ Gunakan wireshark filter expression: ``src port 80``. Pada gambar di bawah ini tidak ada paket yang tertangkap dikarenakan website yang berjalan pada browser tidak memenuhi filter yang diinginkan.
  ![image20](https://lh3.googleusercontent.com/TkdBiFXSVPUOvZB1Z5bbCHoIN1sIGl7BL5KLCK2aj_QOaAFEQdL_hEkdnQXTTn4rk56Zwu4NskitvyLR-OEns-YOw64NupUzvBk8_f62RmWXRqh3KRHQvIsbJbGCRnT-RYd0adjz=s0)
-
+Adapun apabila wesbsite yang berjalan pada browser sesuai dengan filter yakni salah satunya apabila mengakses website ```monta.if.its.ac.id```, maka tampilan sebagai berikut:  
+![image](https://user-images.githubusercontent.com/55240758/134713095-7a650aa2-ce60-4886-a85e-b786db93ce06.png)
+  
 ## Soal 12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!  
 Gunakan wireshark filter expression: ``port 21``
