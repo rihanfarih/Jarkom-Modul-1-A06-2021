@@ -37,7 +37,7 @@ Temukan paket mysql yang mengandung perintah query select!
 Untuk mendapatkan paket tersebut, yakni dengan melakukan filter menggunakan ``mysql contains “select”``. Maka paket yang akan didapatkan sebagai berikut :  
 ![image7](https://user-images.githubusercontent.com/55240758/134285870-bf987ff5-8256-455b-9422-542d65321b22.png)  
   
-Namun syntax yang kami gunakan tidak secara genaral dapat menyelesaikan permasalahan atau permintaan tersebut. Dalam hal ini penggunaan syntax yang paling benar untuk permintaan pada soal ini yaitu ``mysql.command ==3 and frame matches "select"``
+Namun syntax yang kami gunakan tidak secara general dapat menyelesaikan permasalahan atau permintaan tersebut. Dalam hal ini penggunaan syntax yang paling benar untuk permintaan pada soal ini yaitu ``mysql.command == 3 and frame matches "select"``
 
 ## Soal 5
 Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password  bisa didapat dari **query insert** pada table users dari file .pcap!  
@@ -99,13 +99,18 @@ Langkah yang dapat digunakan sebagai berikut:
  Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!   
  Gunakan wireshark filter expression: ``src port 80``. Pada gambar di bawah ini tidak ada paket yang tertangkap dikarenakan website yang berjalan pada browser tidak memenuhi filter yang diinginkan.
  ![image20](https://lh3.googleusercontent.com/TkdBiFXSVPUOvZB1Z5bbCHoIN1sIGl7BL5KLCK2aj_QOaAFEQdL_hEkdnQXTTn4rk56Zwu4NskitvyLR-OEns-YOw64NupUzvBk8_f62RmWXRqh3KRHQvIsbJbGCRnT-RYd0adjz=s0)
+ 
 Adapun apabila wesbsite yang berjalan pada browser sesuai dengan filter yakni salah satunya apabila mengakses website ```monta.if.its.ac.id```, maka tampilan sebagai berikut:  
 ![image](https://user-images.githubusercontent.com/55240758/134713095-7a650aa2-ce60-4886-a85e-b786db93ce06.png)
   
 ## Soal 12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!  
-Gunakan wireshark filter expression: ``port 21``
+Gunakan wireshark filter expression: ``port 21``. Pada gambar dibawah ini tidak ada paket yang tertangkap dikarenakan belum melakukan koneksi antara FileZilla Server dan Client dan tidak sesuai dengan filter yang diinginkan.
 ![image21](https://lh4.googleusercontent.com/FQIvEAA63C5qR4npXrz1vbYLMnGTyqpjKLHE1KxQ_S5xqEivMkXirgo2zGV4wl5-i76EskG8N5WHyI_tuFBYQSMKN5uviDE52-ws5NVb-qVBxIRd4TgY493L6Czovxw0XfcWxtfj=s0)
+
+Apabila ketika berhasil melakukan koneksi antara FileZilla Server dan Client kemudian menggunakan wireshark filter expression: ``dst port 21 || src port 21``, maka tampilannya sebagai berikut:
+![soal12](https://user-images.githubusercontent.com/73771452/134763732-a630bcb7-ab96-4da2-b7fe-5b92a4dc38dd.png)
+``dst port 21`` digunakan untuk menangkap paket menuju ke port 21 sedangkan ``src port 21`` digunakan untuk menangkap paket yang berasal dari port 21
 
 ## Soal 13
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
