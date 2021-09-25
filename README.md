@@ -105,10 +105,10 @@ Adapun apabila wesbsite yang berjalan pada browser sesuai dengan filter yakni sa
   
 ## Soal 12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!  
-Gunakan wireshark filter expression: ``port 21``. Pada gambar dibawah ini tidak ada paket yang tertangkap dikarenakan belum melakukan koneksi antara FileZilla Server dan Client dan tidak sesuai dengan filter yang diinginkan.
+Gunakan wireshark filter expression: ``port 21``. Pada gambar dibawah ini tidak ada paket yang tertangkap dikarenakan belum melakukan koneksi antara FileZilla Server dengan Client dan tidak sesuai dengan filter yang diinginkan.
 ![image21](https://lh4.googleusercontent.com/FQIvEAA63C5qR4npXrz1vbYLMnGTyqpjKLHE1KxQ_S5xqEivMkXirgo2zGV4wl5-i76EskG8N5WHyI_tuFBYQSMKN5uviDE52-ws5NVb-qVBxIRd4TgY493L6Czovxw0XfcWxtfj=s0)
 
-Apabila ketika berhasil melakukan koneksi antara FileZilla Server dan Client kemudian menggunakan wireshark filter expression: ``dst port 21 || src port 21``, maka tampilannya sebagai berikut:
+Apabila telah berhasil melakukan koneksi antara FileZilla Server dengan Client kemudian menggunakan wireshark filter expression: ``dst port 21 || src port 21``, maka tampilannya sebagai berikut:
 ![soal12](https://user-images.githubusercontent.com/73771452/134763732-a630bcb7-ab96-4da2-b7fe-5b92a4dc38dd.png)
 ``dst port 21`` digunakan untuk menangkap paket menuju ke port 21 sedangkan ``src port 21`` digunakan untuk menangkap paket yang berasal dari port 21
 
@@ -132,3 +132,7 @@ Langkah yang dapat digunakan sebagai berikut:
 2. **Langkah kedua:** Ketik 'ipconfig' kemudian tunggu beberapa saat sampai command prompt menunujukkan IP Configuration dari perangkat yang digunakan.
 3. **Langkah pertama:** Kemudian masukkan ip tersebut dan gunakan wireshark filter expression: ``src net 192.168.1.6``
 ![image25](https://user-images.githubusercontent.com/73771452/134446192-9d8876c7-a4c7-420b-8d20-a6e73f193332.png)
+  
+## Kendala
+Kendala yang kami hadapi yaitu :
+1. Pada pengerjaan no 12 kami kebingungan dalam mendapatkan port 21 sesuai permintaan soal. Pada akhirnya kami menggunakan filezilla untuk mendapatkannya, namun sejauh ini filter yang telah kami gunakan telah benar dan sesuai.
