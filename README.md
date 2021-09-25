@@ -4,7 +4,7 @@ Repository untuk laporan resmi praktikum Jarkom 2021 - A06
 
 - Muh. Nur Fajrin Amiruddin (05111940000005)
 - Rihan Farih Bunyamin (05111940000165)
-- Lathifa Itqonina Mardiyati(05111940000176)
+- Lathifa Itqonina Mardiyati (05111940000176)
 
 ## Soal 1
 Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!   
